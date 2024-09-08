@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+nav {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+}
+.nav_LL {
+    width: 20%;
+    padding-top: 25px;
+}
+.nav_LL1 {
+    display: flex;
+    justify-content: center;
+}
+.nav_LL1 i {
+    padding-top: 3px;  
+}
+.logo {
+    display: flex;
+    padding-left: 20px;
+}
+.nav_LL1 img {
+    display: flex;
+    width: 28px;
+    height: 20px;
+    padding-top: 4px;
+}
+.logo h1 {
+    padding-left: 5px;
+}
+.nav_CC {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_CC1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav_CC1 input{
+    width: 500px;
+    border-radius: 30px 0px 0px 30px;
+    height: 35px;
+    border: 1px solid;
+}
+#Reserch{
+    border-radius: 0px 30px 30px 0px;
+    width: 70px;
+    position: relative;
+    right: 1%;
+    border: 1px solid;
+    font-size: 20px;
+}
+#Mic {
+    border-radius: 50%;
+    width: 37px;
+    border: 1px solid;
+}
+.nav_RR {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 35px;
+}
+.nav_RR1 img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+main{
+    padding-top: 6px;
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section{
+    flex: 0.5;
+    display: flex;
+    gap: 8px;
+    margin-left: 10px;
+
+}
+section button{
+    border-radius:7px;
+    border: solid rgb(202, 200, 200) 1px;
+    background-color: rgb(234, 234, 234);
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+section button:hover{
+    background-color: rgb(154, 146, 146);
+}
+aside {
+    padding-top: 10px;
+}
+.icon {
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.icon p {
+    font-size: 11px;
+    margin-right: 10px;
+}
+.icon img {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+.container_aa {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    padding-left: 10px;
+    margin: auto;
+    padding-top: 35px;
+    height: 40vh;
+}
+.container_bb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 95%;
+}
+iframe {
+    width: 80%;
+    height: 35vh;
+    border-radius: 10px;
+}
